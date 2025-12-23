@@ -1,7 +1,4 @@
-package Easy;
-
-import java.net.Inet4Address;
-import java.util.HashSet;
+package Easy.zero.twenty;
 
 public class twentySix {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Easy;
+package Easy.zero.twenty;
 
 public class twentySeven {
     public static void main(String[] args){
