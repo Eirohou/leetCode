@@ -1,9 +1,9 @@
-package Easy.zero.ten;
+package Easy.zero.zero;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class oneTwoSum {
+public class one {
 
         public int[] twoSum(int[] nums, int target) {
             Map<Integer, Integer> map = new HashMap<>();
