@@ -1,4 +1,5 @@
 package Quest.DataStructuresAndAlgorithms.Array2;
+
 import java.util.Arrays;
 
 public class Q1 {
