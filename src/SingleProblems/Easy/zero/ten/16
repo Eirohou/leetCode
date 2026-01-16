@@ -1,0 +1,16 @@
+class Solution {
+    public int threeSumClosest(int[] nums, int target) {
+    int closest = nums[0];
+        for(int i = 1; i < nums.length; i++){
+            for(int j = i+1; j < nums.length; j++){ 
+                for(int k = j + 1; k < nums.length; k++){ 
+                    int sum = nums[j] + nums[i] + nums[k]; 
+                    if(sum == target) return target;
+                    if(Math.abs(target - Math.abs(closest - target)) > Math.abs( target - Math.abs(sum - target))) closest = sum;
+                }
+            }
+        }
+    return closest;
+    }
+
+}
